@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input-text {
+    @apply p-2 border text-sm;
+}
+
+.button-blue {
+    @apply border bg-blue-600 text-white rounded-md text-xs p-2
+}
+.button-red {
+    @apply border bg-red-600 text-white rounded-md text-xs p-2
+}
+.button-transparent {
+    @apply border rounded-md text-xs p-2
+}
+
+td,th{
+    @apply p-3
+}
